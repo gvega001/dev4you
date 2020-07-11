@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet" as="font">
     <link rel="icon" href="images/profile.png">
     <link rel="shortcut icon" href="favicon.ico">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
@@ -71,7 +73,18 @@
                 <div class="card  border-info bg-light mb-3" style="max-width: 100rem;">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="images/profile.png" class="card-img" alt="Gabriel-profile-img">
+                            <img src="images/profile.png"
+                                 class="card-img"
+                                 alt="Gabriel-profile-img"
+                                 srcset="images/gabrielvega8691-480.png 480w,
+                                        images/gabrielvega8691-960.png 960w,
+                                        images/gabrielvega8691-1440.png 1440w,
+                                        images/gabrielvega8691.png 1920w"
+                                 sizes="(max-width:480px) 240px,
+                                         (max-width:960px) 480px,
+                                        (max-width:1440px) 960px,
+                                         1920px"
+                            >
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
