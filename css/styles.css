@@ -84,7 +84,10 @@ a:hover {
   text-decoration: underline;
   color: black;
 }
-
+.row {
+  margin-right: .25rem;
+  margin-left: .25rem;
+}
 .copyright {
   color: #EAF6F6;
   font-size: 0.75rem;
@@ -151,6 +154,7 @@ a:hover {
 
 .mountain {
   position: relative;
+
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
