@@ -85,12 +85,14 @@ section
   background-color: #E4F9F5;
   position: relative;
   padding-top: 6rem;
+  max-width: 100%;
 }
 
 .bottom-container
 {
   background-color: #66BFBF;
   padding: 25px 50px 25px 50px;
+  max-width: 100%;
 }
 
 .top-container-resume
@@ -99,7 +101,12 @@ section
   position: relative;
   padding-top: 7rem;
   padding-bottom: 2rem;
+  max-width: 100%;
 }
+.container-fluid{
+  max-width: 100%;
+}
+
 
 /* Carousel
    ========================================================================== */
